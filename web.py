@@ -1,12 +1,14 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
+print('FROM WEB.PY')
+
 
 @app.route("/")
 @app.route("/user/<name>")
 def hello(name=None):
     if name is not None:
-        name = str.capitalize(name[0:1]) + name[1:10]
+        name = str.capitalize(name[0:1]) + name[1:100]
         return render_template("index.html", name=name)
     else:
         return render_template("index.html")

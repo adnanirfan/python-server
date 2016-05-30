@@ -1,0 +1,34 @@
+2016-05-30T21:03:50.078588+00:00 heroku[api]: Deploy 22f6591 by adnanshurta@gmail.com
+2016-05-30T21:03:50.078588+00:00 heroku[api]: Release v20 created by adnanshurta@gmail.com
+2016-05-30T21:03:50.281797+00:00 heroku[slug-compiler]: Slug compilation started
+2016-05-30T21:03:50.281807+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-05-30T21:04:02.550245+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=python-sample-server.herokuapp.com request_id=157b03c9-8194-426b-945c-db62737c3a74 fwd="42.201.221.11" dyno= connect= service= status=503 bytes=
+2016-05-30T21:04:03.520868+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=python-sample-server.herokuapp.com request_id=be91399a-7ab0-460c-a70d-8d1221626427 fwd="42.201.221.11" dyno= connect= service= status=503 bytes=
+2016-05-30T21:18:00.840567+00:00 heroku[api]: Deploy ffc5a86 by adnanshurta@gmail.com
+2016-05-30T21:18:00.840567+00:00 heroku[api]: Release v21 created by adnanshurta@gmail.com
+2016-05-30T21:18:01.008941+00:00 heroku[slug-compiler]: Slug compilation started
+2016-05-30T21:18:01.008946+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-05-30T21:19:01.204949+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=python-sample-server.herokuapp.com request_id=4de5b99a-bc39-464a-af2b-5ad2f1d77f9f fwd="42.201.221.11" dyno= connect= service= status=503 bytes=
+2016-05-30T21:19:02.102275+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=python-sample-server.herokuapp.com request_id=fdd08ffd-d9a0-4901-91ac-291abcc3c160 fwd="42.201.221.11" dyno= connect= service= status=503 bytes=
+2016-05-30T21:22:15.253009+00:00 heroku[slug-compiler]: Slug compilation started
+2016-05-30T21:22:15.253019+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-05-30T21:22:15.086890+00:00 heroku[api]: Deploy f0f3766 by adnanshurta@gmail.com
+2016-05-30T21:22:15.086890+00:00 heroku[api]: Release v22 created by adnanshurta@gmail.com
+2016-05-30T21:22:32.104061+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=python-sample-server.herokuapp.com request_id=306d68a2-d350-48ec-8dbf-4719a374d250 fwd="42.201.221.11" dyno= connect= service= status=503 bytes=
+2016-05-30T21:22:32.886524+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=python-sample-server.herokuapp.com request_id=102b9522-d2be-49e3-97c2-68505e6b10a4 fwd="42.201.221.11" dyno= connect= service= status=503 bytes=
+2016-05-30T21:25:45.894731+00:00 heroku[api]: Release v23 created by adnanshurta@gmail.com
+2016-05-30T21:25:45.894731+00:00 heroku[api]: Deploy 1f7b56a by adnanshurta@gmail.com
+2016-05-30T21:25:46.095953+00:00 heroku[slug-compiler]: Slug compilation started
+2016-05-30T21:25:46.095963+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-05-30T21:26:15.500598+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=python-sample-server.herokuapp.com request_id=33015bd7-9ed6-4f63-ab79-6a90422010e9 fwd="42.201.221.11" dyno= connect= service= status=503 bytes=
+2016-05-30T21:26:16.299492+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=python-sample-server.herokuapp.com request_id=2eff5bf1-211a-423d-b722-52cf144dbfbf fwd="42.201.221.11" dyno= connect= service= status=503 bytes=
+2016-05-30T21:27:18.097556+00:00 heroku[api]: Scale to web=1 by adnanshurta@gmail.com
+2016-05-30T21:27:29.967257+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-05-30T21:27:32.224734+00:00 app[web.1]: [2016-05-30 21:27:32 +0000] [3] [INFO] Starting gunicorn 19.6.0
+2016-05-30T21:27:32.225556+00:00 app[web.1]: [2016-05-30 21:27:32 +0000] [3] [INFO] Listening at: http://0.0.0.0:25608 (3)
+2016-05-30T21:27:32.225704+00:00 app[web.1]: [2016-05-30 21:27:32 +0000] [3] [INFO] Using worker: sync
+2016-05-30T21:27:32.229432+00:00 app[web.1]: [2016-05-30 21:27:32 +0000] [7] [INFO] Booting worker with pid: 7
+2016-05-30T21:27:32.242754+00:00 app[web.1]: [2016-05-30 21:27:32 +0000] [8] [INFO] Booting worker with pid: 8
+2016-05-30T21:27:32.939637+00:00 heroku[web.1]: State changed from starting to up
+2016-05-30T21:28:01.256661+00:00 heroku[router]: at=info method=GET path="/" host=python-sample-server.herokuapp.com request_id=e83c6c1d-21f2-40ce-a897-1ea9e774590e fwd="42.201.221.11" dyno=web.1 connect=1ms service=3ms status=200 bytes=171
+2016-05-30T21:28:01.867904+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=python-sample-server.herokuapp.com request_id=3c341ea0-4e89-4c68-a4ed-90cac60e5e75 fwd="42.201.221.11" dyno=web.1 connect=1ms service=20ms status=404 bytes=386

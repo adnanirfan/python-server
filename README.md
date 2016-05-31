@@ -32,7 +32,7 @@ Flask==0.10.1
 
 
 ## 4. Procfile
-To define the type of process on which our application will run.
+To define the type of process on which the application will run.
 ```
 web: gunicorn web:app
 ```

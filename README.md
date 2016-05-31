@@ -1,6 +1,6 @@
 # Python Sample Server
 
-Files required by Heroku for Python:
+### Files required by Heroku for Python:
 1. Web.py(Main file which starts server)
 2. runtime.txt
 3. requirements.txt
@@ -19,8 +19,8 @@ python-3.5.1
 
 
 ## 3. requirements.txt
-To define application dependencies.
-<DEPENDENCY_NAME>==<VERSION>
+###### To define application dependencies.
+\<DEPENDENCY_NAME\>==\<VERSION\>
 e.g:
 Flask==0.10.1
 
